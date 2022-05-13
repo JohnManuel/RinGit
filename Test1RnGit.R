@@ -1,3 +1,4 @@
-git_yesterday <- function(
-  return(Sys.Date)-1)
-)
+git_yesterday <- function(){
+  x <- (Sys.Date() - 1)
+  return(x)
+  }
